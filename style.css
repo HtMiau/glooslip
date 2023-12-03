@@ -327,15 +327,15 @@ button:hover{
 }
 
 /*reponsividade*/
-@media screen and (max-width: 500px){
+@media (min-width: 320px) and (max-width: 480px){
 
   .img{
-    width: 40%;
+    width: 45%;
   }
 
   .imgles{
     width: 100%;
-    height: 80vh;
+    height: 70vh;
   }
 
   .Quemsomos{
@@ -382,20 +382,26 @@ button:hover{
   }
   .caixaldesq{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
   }
   .produto1{
-    width: 50%;
-    height: 50vh;
+    width: 40%;
+    height: 40vh;
   }
   .imgpdt1{
-    width: 45%;
-    height: 25vh;
+    width: 44%;
+    height: 15vh;
   }
 
   .produto2{
-    width: 50%;
-    height: 50vh;
+    width: 40%;
+    height: 40vh;
+  }
+
+  .imgpdt2{
+    width: 44%;
+    height: 15vh;
   }
 
   .txtldesq{
@@ -409,7 +415,7 @@ button:hover{
   }
 
   .footer{
-    gap: 2vh;
+    gap: 1vh;
   }
 
   .redesfooter{
@@ -417,7 +423,7 @@ button:hover{
   }
 
   .imgfooter{
-    width: 50%;
+    width: 45%;
     height: 15vh;
   }
 
@@ -427,7 +433,6 @@ button:hover{
   }
 
   .Informações p {
-  
     font-size: 10px;
   }
   
