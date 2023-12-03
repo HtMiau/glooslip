@@ -333,7 +333,7 @@ button:hover{
 
   .Quemsomos{
     width: 100%;
-    height: 51vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     gap: 2vh;
@@ -345,7 +345,7 @@ button:hover{
 
   .txtquemsomos{
     width: 85%;
-    height: 50vh;
+    height: 30vh;
     align-items: center;
   }
 
@@ -357,7 +357,7 @@ button:hover{
   .txtquemsomos p{
     width: 95%;
     height: 50vh;
-    font-size: 20px;
+    font-size: 25px;
     line-height:1;
     text-align: center;
   }
@@ -418,7 +418,7 @@ button:hover{
   .txtldesq{
     width: 90%;
     height: auto;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
   }
 
@@ -435,7 +435,7 @@ button:hover{
   .txtlddrt{
     width: 90%;
     height: 40vh;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
   }
 
