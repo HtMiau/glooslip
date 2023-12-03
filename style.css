@@ -409,33 +409,33 @@ button:hover{
   }
   .produto1{
     width: 67%;
-    height: 200px;
+    height: 300px;
   }
   .imgpdt1{
     width: 50%;
-    height: 120px;
+    height: 150px;
   }
   .txtldesq{
     width: 90%;
     height: auto;
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
   }
 
   .produto2{
     width: 67%;
-    height: 200px;
+    height: 300px;
   }
 
   .imgpdt2{
     width: 50%;
-    height: 120px;
+    height: 150px;
   }
   
   .txtlddrt{
     width: 90%;
     height: 40vh;
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
   }
 
@@ -457,7 +457,7 @@ button:hover{
   }
 
   .Informações p {
-    font-size: 15px;
+    font-size: 20px;
   }
   
 
