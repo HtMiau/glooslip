@@ -322,8 +322,8 @@ button:hover{
 @media (min-width: 320px) and (max-width: 480px){
 
   .img{
-    width: 80%;
-    height: 20vh;
+    width: 70%;
+    height: 15vh;
   }
 
   .imgles{
@@ -345,7 +345,7 @@ button:hover{
 
   .txtquemsomos{
     width: 85%;
-    height: 60vh;
+    height: 50vh;
     align-items: center;
   }
 
@@ -376,11 +376,12 @@ button:hover{
   .caixasaibamaisdois{
     width: 90%;
     height: 60vh;
+    align-items: center;
   }
 
   .imgsaibamaisdois{
-    width: 100%;
-    height: 50vh;
+    width: 80%;
+    height: 40vh;
     background-image: url(img/WhatsApp_Image_2023-12-02_at_18.45.00-removebg-preview.png);
   }
 
@@ -408,11 +409,11 @@ button:hover{
   }
   .produto1{
     width: 67%;
-    height: 50vh;
+    height: 200px;
   }
   .imgpdt1{
     width: 50%;
-    height: 25vh;
+    height: 120px;
   }
   .txtldesq{
     width: 90%;
@@ -423,17 +424,17 @@ button:hover{
 
   .produto2{
     width: 67%;
-    height: 50vh;
+    height: 200px;
   }
 
   .imgpdt2{
     width: 50%;
-    height: 25vh;
+    height: 120px;
   }
   
   .txtlddrt{
     width: 90%;
-    height: 50vh;
+    height: 40vh;
     font-size: 17px;
     text-align: center;
   }
