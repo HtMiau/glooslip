@@ -283,14 +283,6 @@ button:hover{
   gap: 40vh;
 }
 
-.imgfooter{
-  width: 30%;
-  height: 20vh;
-  background-image: url(img/Group\ 1\ \(2\).png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .redesfooter{
   width: 50%;
   height: 20vh;
@@ -330,7 +322,8 @@ button:hover{
 @media (min-width: 320px) and (max-width: 480px){
 
   .img{
-    width: 45%;
+    width: 80%;
+    height: 20vh;
   }
 
   .imgles{
@@ -343,6 +336,7 @@ button:hover{
     height: 51vh;
     display: flex;
     flex-direction: column;
+    gap: 2vh;
   }
 
   .imgquemsomos{
@@ -351,7 +345,7 @@ button:hover{
 
   .txtquemsomos{
     width: 85%;
-    height: 50vh;
+    height: 60vh;
     align-items: center;
   }
 
@@ -362,6 +356,7 @@ button:hover{
   
   .txtquemsomos p{
     width: 95%;
+    height: 50vh;
     font-size: 20px;
     line-height:1;
     text-align: center;
@@ -379,64 +374,89 @@ button:hover{
   }
 
   .caixasaibamaisdois{
-    width: 85%;
+    width: 90%;
+    height: 60vh;
   }
+
+  .imgsaibamaisdois{
+    width: 100%;
+    height: 50vh;
+    background-image: url(img/WhatsApp_Image_2023-12-02_at_18.45.00-removebg-preview.png);
+  }
+
+  .txtsaibamaisdois{
+    display: none;
+  }
+
+
+  .caixaprodutoum{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 5vh;
+  }
+
   .caixaldesq{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .caixalddrt{
+    display: flex;
+    flex-direction: column;
   }
   .produto1{
-    width: 40%;
-    height: 40vh;
+    width: 67%;
+    height: 50vh;
   }
   .imgpdt1{
-    width: 44%;
-    height: 15vh;
+    width: 50%;
+    height: 25vh;
+  }
+  .txtldesq{
+    width: 90%;
+    height: auto;
+    font-size: 17px;
+    text-align: center;
   }
 
   .produto2{
-    width: 40%;
-    height: 40vh;
+    width: 67%;
+    height: 50vh;
   }
 
   .imgpdt2{
-    width: 44%;
-    height: 15vh;
-  }
-
-  .txtldesq{
     width: 50%;
-    font-size: 15px;
+    height: 25vh;
   }
   
   .txtlddrt{
-    width: 42%;
-    font-size: 13px;
+    width: 90%;
+    height: 50vh;
+    font-size: 17px;
+    text-align: center;
   }
 
   .footer{
+    width: 100%;
     height: 15vh;
     gap: 1vh;
+    align-items: center;
   }
 
   .redesfooter{
-    width: 20%;
+    width: 100%;
     height: 15vh;
   }
 
-  .imgfooter{
-    width: 28%;
-    height: 10vh;
-  }
-
   .Informações{
-    width: 50%;
+    width: 80%;
     height: 10vh;
   }
 
   .Informações p {
-    font-size: 10px;
+    font-size: 15px;
   }
   
 
